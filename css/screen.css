@@ -1,47 +1,44 @@
 html{
 	line-height: 1.2em;
-	font-family: tahoma;
+	font-family: Arial, sans-serif;
 	font-size: 15px;
 }
 input{
 	width: 98%;
 	height: 30px;
+	margin: 5px 0;
 }
 div{
 	width: 50%;
 	margin: 0 0 0 0;
+	display: inline;
+}
+form{
+	border-style:groove; 
+	border-color: lightblue;
+	text-align: center;
 }
 
 body{
 	background-color: lightgray;
-
-}
-
-h2{
 	text-align: center;
 }
 
-@media screen and (min-width: 620px) {
-  label {
-    display: inline-block;
-    color: white;
-    background-color: red;
-    margin-right: 5px;
-    font-size: 1.3em;
-    width: 30%;
-    height: 20px;
+h2{
+	margin: 20px 0;
+}
+
+#submit-button:hover{
+	background-color: blueviolet;
+	color: white;
+
+}
+
+@media only screen  (min-width: 480px) {
+  form {
+    display: block;
+    width: 60%;
 
   }
   
-  input{
-    width: 30%;
-    float: clear;
-    height: 20px;
-   
-  }
-  
-  div {
-    display: inline;
-    
-  }
 }
