@@ -8,16 +8,17 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <form method="POST" autocomplete="on" action="#null">
+  <h2> HTML Form Page</h2>
+  <form method="post" autocomplete="on" action="form.php">
     <fieldset>
-      <div>
-        <label>Email: <input type ="email" name="email_field" placeholder="email here"></label>
+      <div >
+        <label>Email: <input type ="email" name="email_field" placeholder="janedoe@example.com"></label>
       </div>
       <div>
-        <label>Phone Number: <input type="tel" name="number_field" placeholder="phone number here"></label>
+        <label>Phone Number: <input type="tel" name="phone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
       </div>
       <div>
-        <label>Date of Birth: <input type="date" name="birthdate_field" placeholder="date of birth here"></label>
+        <label>Date of Birth: <input type="date" name="birthdate_field" placeholder="mm/dd/yyyy"></label>
       </div>
     </fieldset>
     <input type="submit" value="Submit">
