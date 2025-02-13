@@ -6,11 +6,10 @@ html{
 input{
 	width: 98%;
 	height: 30px;
-	margin: 0 auto;
 }
 div{
 	width: 50%;
-	margin: 0 auto;
+	margin: 0 0 0 0;
 }
 
 body{
