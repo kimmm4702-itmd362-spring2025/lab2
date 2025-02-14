@@ -28,9 +28,11 @@ form{
 	border-color: lightblue;
 	border-radius: 12px;
 	text-align: center;
-	padding: 30px;
+	padding: 20px;
 	max-width: 450px;
 	width: 100%;
+	box-shadow: 10px 10px 5px #aaaaaa;
+
 }
 
 h2{
