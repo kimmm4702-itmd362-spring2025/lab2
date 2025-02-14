@@ -54,12 +54,9 @@ h2{
 
 @media only screen  (min-width: 480px) {
   form {
-  	padding: 20px;
+  	display: block;
     width: 90%;
-    max-width: 90%;
-  }
-  input, #submit-button{
-  	width: 100%;
+    
   }
   
 }
