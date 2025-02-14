@@ -25,13 +25,13 @@ div{
 }
 form{
 	border-style:groove; 
-	border-color: lightblue;
-	border-radius: 12px;
+	border-color: darkblue;
+	border-radius: 20px;
 	text-align: center;
 	padding: 20px;
 	max-width: 450px;
 	width: 100%;
-	box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px #aaaaaa;
 
 }
 
